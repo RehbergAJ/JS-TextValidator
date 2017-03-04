@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<style>
+    .body {
+        background-color: darkslategray;
+        color: ghostwhite;
+    }
+
+</style>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Text Field Validator</title>		
+    </head>
+    <body class="body">        		
+        <h1>Text Field Validator </h1>
+		<div style="width:500px;margin-top:12px">	
+            <label>Test Case One:</label>					
+            <input id="txtInput" type="text" placeholder="No regex used (no symbols)" name="txtInput" size="30" maxlength="20" /><br><br>
+            <label>Test Case Two:</label>
+            <input id="txtInput2" type="text" placeholder="Error color constructor (no symbols)" name="txtInput" size="30" maxlength="20" /><br><br>
+            <label>Test Case Three:</label>
+            <input id="txtInput3" type="text" placeholder="Error color post constructor (no letters)" name="txtInput" size="30" maxlength="20" /><br><br>    
+		</div>
+		
+		<div id="lblFeedback" style="font-size:16px;margin-top:12px;"></div>
+        
+        
+        <script type="text/javascript" src="TextboxValidator.js"></script>
+        <script type="text/javascript" src="validatorBack.js"></script>
+    </body>
+</html>
